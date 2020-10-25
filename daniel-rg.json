@@ -16,6 +16,18 @@
             "defaultValue": "70.72.202.217",
             "type": "String"
         },
+        "customData_App": {
+            "defaultValue": "70.72.202.217",
+            "type": "String"
+        },
+        "customData_Web": {
+            "defaultValue": "70.72.202.217",
+            "type": "String"
+        },
+        "customData_Bastion": {
+            "defaultValue": "#!/bin/sh\necho 'AllowUsers azureuser' >> /etc/ssh/sshd_config\nsystemctl restart sshd\n",
+            "type": "String"
+        },        
         "virtualMachines_App1_name": {
             "defaultValue": "App1",
             "type": "String"
@@ -356,6 +368,7 @@
                     },
                     "secrets": [],
                     "allowExtensionOperations": true,
+                    "customData": "[base64(parameters('customData_Bastion'))]",
                     
                 },
                 "networkProfile": {
