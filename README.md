@@ -2,10 +2,10 @@
 
 ## Instructions on deploying the daniel-rg template to azure.
 
-Requirements:
-    - An Azure account, with activated subscription.
-    - Powershell core installed 
-    - Powershell plugin AzureRM installed
+Requirements:  
+    - An Azure account, with activated subscription.   
+    - Powershell core installed  
+    - Powershell plugin AzureRM installed  
     
 This ARM template daniel-rg.json can be deployed natively within Azure, or via powershell as follows.
 
