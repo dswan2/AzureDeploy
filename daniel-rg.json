@@ -274,7 +274,7 @@
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_App1_name'), '_OsDisk_1_41a849b097fb48d2893e27c845106153'))]"
+                            
                         }
                     },
                     "dataDisks": []
@@ -332,7 +332,7 @@
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_Bastion1_name'), '_OsDisk_1_fceaf69fc7794717a8d4f7bdf5df0fea'))]"
+                           
                         }
                     },
                     "dataDisks": []
@@ -390,7 +390,7 @@
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_Web1_name'), '_OsDisk_1_741c26c8a97f49dea173b3057b43993c'))]"
+                            
                         }
                     },
                     "dataDisks": []
