@@ -1,6 +1,6 @@
-# Mark-rg
+# daniel-rg
 
-## Instructions on deploying the mark-rg template to azure.
+## Instructions on deploying the daniel-rg template to azure.
 
 Requirements:
     An Azure account, with activated subscription.
@@ -31,12 +31,12 @@ Connect-AzAccount
 
 3.  Create The resource group in Azure.   The Resource group is the "Container" which contains associated resources.  In powershell, execute:
 
-New-AzResourceGroup -Name mark-rg -Location westus2
+New-AzResourceGroup -Name daniel-rg -Location westus2
 
 
 4.  Deploy the template to create the resources in the RG:
 
-New-AzResourceGroupDeployment -ResourceGroupName mark-rg -TemplateUri https://raw.githubusercontent.com/dswan2/Mark-rg/main/mark-rg.json
+New-AzResourceGroupDeployment -ResourceGroupName mark-rg -TemplateUri https://raw.githubusercontent.com/dswan2/daniel-rg/main/daniel-rg.json
 
 
 
