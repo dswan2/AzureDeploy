@@ -36,7 +36,7 @@ New-AzResourceGroup -Name daniel-rg -Location westus2
 
 4.  Deploy the template to create the resources in the RG (idempotent):
 
-New-AzResourceGroupDeployment -ResourceGroupName mark-rg -TemplateUri https://raw.githubusercontent.com/dswan2/azuredeploy/main/daniel-rg.json
+New-AzResourceGroupDeployment -ResourceGroupName daniel-rg -TemplateUri https://raw.githubusercontent.com/dswan2/AzureDeploy/main/daniel-rg.json
 
 
 Optional:  To delete resource group and clean the slate for redeploy, In powershell, execute:
