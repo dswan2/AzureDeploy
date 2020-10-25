@@ -40,3 +40,11 @@ New-AzResourceGroupDeployment -ResourceGroupName mark-rg -TemplateUri https://ra
 
 
 
+
+# Todos:
+Add line for RG removal.
+Add cloud-init provisioner for custom config.
+Add Vizualization and Deployment buttons to readme.
+Breakout Allowed-IP into parameters file?
+
+
