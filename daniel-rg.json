@@ -6,7 +6,7 @@
         "type": "string",
          "value": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_name'))]"
                     }
-               }
+               },
     "parameters": {
         "Whitelist_IP": {
             "defaultValue": "70.72.202.217",
