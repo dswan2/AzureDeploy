@@ -34,9 +34,14 @@ Connect-AzAccount
 New-AzResourceGroup -Name daniel-rg -Location westus2
 
 
+3.  Set your Source IP to allow whitelist:
+
+$additionalParams = @{ "Whitelist_IP" = "1.2.3.3" }
+
+
 4.  Deploy the template to create the resources in the RG (idempotent):
 
-New-AzResourceGroupDeployment -ResourceGroupName daniel-rg -TemplateUri https://raw.githubusercontent.com/dswan2/AzureDeploy/main/daniel-rg.json
+New-AzResourceGroupDeployment -ResourceGroupName daniel-rg -TemplateUri https://raw.githubusercontent.com/dswan2/AzureDeploy/main/daniel-rg.json  -TemplateParameterObject $additionalParams
 
 
 Optional:  To delete resource group and clean the slate for redeploy, In powershell, execute:
