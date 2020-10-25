@@ -4,8 +4,9 @@
      "outputs": {
         "PublicIPAddress-Bastion": {
         "type":"string",
+           
         "value" : "[reference(parameters('publicIPAddresses_Bastion1_ip_name')).properties.ipAddress]"
-                                   }
+                               }
                 },
     "parameters": {
         "Whitelist_IP": {
