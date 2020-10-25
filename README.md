@@ -41,11 +41,14 @@ New-AzResourceGroupDeployment -ResourceGroupName daniel-rg -TemplateUri https://
 
 Optional:  To delete resource group and clean the slate for redeploy, In powershell, execute:
 
-Remove-AzResourceGroup -Name daniel-rg -Force
+Remove-AzResourceGroup -Name daniel-rg -Force  
+
+
+[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2dswan2%2AzureDeploy%2main/daniel-rg.json)  [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2dswan2%2AzureDeploy%2main/daniel-rg.json)
 
 
 # Todos:
-Add Vizualization and Deployment buttons to readme.
-Breakout Allowed-IP into command line parameter?
-Manually add customdata to template
+Add Vizualization and Deployment buttons to readme.  
+Breakout Allowed-IP into command line parameter?  
+Manually add customdata to template  
 
