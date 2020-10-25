@@ -44,10 +44,6 @@ Optional:  To delete resource group and clean the slate for redeploy, In powersh
 Remove-AzResourceGroup -Name daniel-rg -Force  
 
 
-[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdswan2%2FAzureDeploy%2Fmain%2Fdaniel-rg.json)  
-
-[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fdswan2%2FAzureDeploy%2Fmain%2Fdaniel-rg.json)
-
 
 # Todos:
   
