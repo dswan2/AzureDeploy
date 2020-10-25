@@ -3,9 +3,9 @@
 ## Instructions on deploying the daniel-rg template to azure.
 
 Requirements:
-    An Azure account, with activated subscription.
-    Powershell core installed 
-    Powershell plugin AzureRM installed
+    - An Azure account, with activated subscription.
+    - Powershell core installed 
+    - Powershell plugin AzureRM installed
     
 This ARM template daniel-rg.json can be deployed natively within Azure, or via powershell as follows.
 
@@ -34,16 +34,17 @@ Connect-AzAccount
 New-AzResourceGroup -Name daniel-rg -Location westus2
 
 
-4.  Deploy the template to create the resources in the RG:
+4.  Deploy the template to create the resources in the RG (idempotent):
 
 New-AzResourceGroupDeployment -ResourceGroupName mark-rg -TemplateUri https://raw.githubusercontent.com/dswan2/azuredeploy/main/daniel-rg.json
 
 
+Optional:  To delete resource group and clean the slate for redeploy, In powershell, execute:
+
+Remove-AzResourceGroup -Name daniel-rg -Force
 
 
 # Todos:
-Add line for RG removal.
-Add cloud-init provisioner for custom config.
 Add Vizualization and Deployment buttons to readme.
 Breakout Allowed-IP into parameters file?
 
