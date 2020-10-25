@@ -472,7 +472,7 @@
                 "protocol": "TCP",
                 "sourcePortRange": "*",
                 "destinationPortRange": "22",
-                "sourceAddressPrefix":  "name": "[parameters('Whitelist_IP')]",
+                "sourceAddressPrefix":  "[parameters('Whitelist_IP')]",
                 "destinationAddressPrefix": "*",
                 "access": "Allow",
                 "priority": 300,
