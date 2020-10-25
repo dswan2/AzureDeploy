@@ -1,11 +1,10 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
-     "outputs": {
+    "outputs": {
         "PublicIPAddress-Bastion": {
         "type":"string",
-           
-        "value" : "[reference(parameters('publicIPAddresses_Bastion1_ip_name')).properties.ipAddress]"
+        "value" : "[reference(parameters('publicIPAddresses_Bastion1_ip_name')).ipAddress]"
                                }
                 },
     "parameters": {
