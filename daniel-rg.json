@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "Whitelist_IP": {
-            "defaultValue": "1.2.3.44",
+            "defaultValue": "70.72.202.217",
             "type": "String"
         },
         "virtualMachines_App1_name": {
