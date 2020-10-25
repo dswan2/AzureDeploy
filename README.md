@@ -1,4 +1,4 @@
-# daniel-rg
+# Azuredeploy - Create an Azure environment from template.
 
 ## Instructions on deploying the daniel-rg template to azure.
 
@@ -7,7 +7,7 @@ Requirements:
     Powershell core installed 
     Powershell plugin AzureRM installed
     
-This ARM template mark-rg.json can be deployed natively within zure, or via powershell as follows.
+This ARM template daniel-rg.json can be deployed natively within Azure, or via powershell as follows.
 
 
 
@@ -36,7 +36,7 @@ New-AzResourceGroup -Name daniel-rg -Location westus2
 
 4.  Deploy the template to create the resources in the RG:
 
-New-AzResourceGroupDeployment -ResourceGroupName mark-rg -TemplateUri https://raw.githubusercontent.com/dswan2/daniel-rg/main/daniel-rg.json
+New-AzResourceGroupDeployment -ResourceGroupName mark-rg -TemplateUri https://raw.githubusercontent.com/dswan2/azuredeploy/main/daniel-rg.json
 
 
 
