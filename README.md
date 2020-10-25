@@ -46,6 +46,6 @@ Remove-AzResourceGroup -Name daniel-rg -Force
 
 # Todos:
 Add Vizualization and Deployment buttons to readme.
-Breakout Allowed-IP into parameters file?
-
+Breakout Allowed-IP into command line parameter?
+Manually add customdata to template
 
