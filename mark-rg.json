@@ -504,7 +504,7 @@
                     },
                     "secrets": [],
                     "allowExtensionOperations": true,
-                    "requireGuestProvisionSignal": true
+                    
                 },
                 "networkProfile": {
                     "networkInterfaces": [
@@ -570,7 +570,7 @@
                     },
                     "secrets": [],
                     "allowExtensionOperations": true,
-                    "requireGuestProvisionSignal": true
+                   
                 },
                 "networkProfile": {
                     "networkInterfaces": [
@@ -816,7 +816,7 @@
                     },
                     "secrets": [],
                     "allowExtensionOperations": true,
-                    "requireGuestProvisionSignal": true
+                   
                 },
                 "networkProfile": {
                     "networkInterfaces": [
