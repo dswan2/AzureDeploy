@@ -1,12 +1,6 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
-    "outputs": {
-        "resourceID": {
-        "type": "string",
-         "value": "[resourceId('Microsoft.Network/publicIPAddresses', [reference(parameters('publicIPAddresses_Bastion1_ip_name')).properties.ipAddress]"
-                    }
-               },
     "parameters": {
         "Whitelist_IP": {
             "defaultValue": "70.72.202.217",
