@@ -4,7 +4,7 @@
     "outputs": {
         "PublicIPAddress-Bastion": {
         "type": "string",
-        "value": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_Bastion1_ip_name'))]"
+        "value": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_Bastion1_ip_name')).ipAddress]"
                                 }
          },
     "parameters": {
