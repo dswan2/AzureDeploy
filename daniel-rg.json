@@ -2,14 +2,18 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "outputs": {
+#        "PublicIPAddress-Bastion": {
+#        "type":"string",
+#        "value" : "[reference(parameters('publicIPAddresses_Bastion1_ip_name')).ipAddress]"
+#                              },
         "PublicIPAddress-Bastion": {
-        "type":"string",
-        "value" : "[reference(parameters('publicIPAddresses_Bastion1_ip_name')).ipAddress]"
-                               },
-        "PublicIPAddress-Web": {
-        "type":"string",
-        "value" : "[reference(parameters('publicIPAddresses_Web1_ip_name')).ipAddress]"
-                               }
+        "type": "string",
+        "value": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_Bastion1_ip_name'))]"
+                                },
+ #       "PublicIPAddress-Web": {
+ #       "type":"string",
+ #       "value" : "[reference(parameters('publicIPAddresses_Web1_ip_name')).ipAddress]"
+ #                              }
          },
     "parameters": {
         "Whitelist_IP": {
