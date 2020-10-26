@@ -212,7 +212,7 @@ oJ7W290AZbTcyk7Fgnh6CFLwwhcBYOqpN6RoLxdKxv3CBx6W/zW68IH8RyqaVVMm
             "properties": {
                 "ipAddress": "52.229.13.42",
                 "publicIPAddressVersion": "IPv4",
-                "publicIPAllocationMethod": "Dynamic",
+                "publicIPAllocationMethod": "Static",
                 "idleTimeoutInMinutes": 4,
                 "ipTags": []
             }
@@ -228,7 +228,7 @@ oJ7W290AZbTcyk7Fgnh6CFLwwhcBYOqpN6RoLxdKxv3CBx6W/zW68IH8RyqaVVMm
             "properties": {
                 "ipAddress": "52.151.59.176",
                 "publicIPAddressVersion": "IPv4",
-                "publicIPAllocationMethod": "Dynamic",
+                "publicIPAllocationMethod": "Static",
                 "idleTimeoutInMinutes": 4,
                 "ipTags": []
             }
@@ -244,7 +244,7 @@ oJ7W290AZbTcyk7Fgnh6CFLwwhcBYOqpN6RoLxdKxv3CBx6W/zW68IH8RyqaVVMm
             "properties": {
                 "ipAddress": "13.77.142.51",
                 "publicIPAddressVersion": "IPv4",
-                "publicIPAllocationMethod": "Dynamic",
+                "publicIPAllocationMethod": "Static",
                 "idleTimeoutInMinutes": 4,
                 "ipTags": []
             }
