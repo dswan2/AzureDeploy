@@ -53,6 +53,6 @@ New-AzResourceGroupDeployment -ResourceGroupName daniel-rg -TemplateUri https://
   
 Optional:  To delete resource group and clean the slate for redeploy, In powershell, execute:
 
-Remove-AzResourceGroup -Name daniel-rg -Force  
+    Remove-AzResourceGroup -Name daniel-rg -Force  
 
 
