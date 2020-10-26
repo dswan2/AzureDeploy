@@ -5,12 +5,12 @@
         "PublicIPAddress-Bastion": {
         "type":"string",
         "value" : "[reference(parameters('publicIPAddresses_Bastion1_ip_name')).ipAddress]",
-                               },
+                               }
         "PublicIPAddress-Web": {
         "type":"string",
         "value" : "[reference(parameters('publicIPAddresses_Web1_ip_name')).ipAddress]",
-                               },
-                },
+                               }
+         },
     "parameters": {
         "Whitelist_IP": {
             "defaultValue": "70.72.202.217",
