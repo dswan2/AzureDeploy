@@ -44,14 +44,9 @@ $additionalParams = @{ "Whitelist_IP" = "1.2.3.3" }
 New-AzResourceGroupDeployment -ResourceGroupName daniel-rg -TemplateUri https://raw.githubusercontent.com/dswan2/AzureDeploy/main/daniel-rg.json  -TemplateParameterObject $additionalParams
 
 
+
 Optional:  To delete resource group and clean the slate for redeploy, In powershell, execute:
 
 Remove-AzResourceGroup -Name daniel-rg -Force  
 
-
-
-# Todos:
-  
-Breakout Allowed-IP into command line parameter?  
-Manually add customdata to template  
 
