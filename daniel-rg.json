@@ -17,11 +17,11 @@
             "type": "String"
         },
         "customData_App": {
-            "defaultValue": "70.72.202.217",
+            "defaultValue": "/usr/bin/yum install httpd curl -y\necho 'Hello World, Daniel was here!'' >  /var/www/html/index.html\nsystemctl --now enable httpd",
             "type": "String"
         },
         "customData_Web": {
-            "defaultValue": "70.72.202.217",
+            "defaultValue": "/usr/bin/yum install httpd mod_ssl curl -y\necho 'Hello World, Daniel was here!'' >  /var/www/html/index.html\nsystemctl --now enable httpd",
             "type": "String"
         },
         "customData_Bastion": {
@@ -308,6 +308,7 @@
                     },
                     "secrets": [],
                     "allowExtensionOperations": true,
+                    "customData": "[base64(parameters('customData_Web'))]",
                     
                 },
                 "networkProfile": {
@@ -429,6 +430,7 @@
                     },
                     "secrets": [],
                     "allowExtensionOperations": true,
+                    "customData": "[base64(parameters('customData_Web'))]",
                     
                 },
                 "networkProfile": {
