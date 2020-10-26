@@ -17,11 +17,11 @@
             "type": "String"
         },
         "customData_App": {
-            "defaultValue": "#!/bin/sh\n/usr/bin/yum install httpd curl -y\necho 'Hello World, Daniel was here!' >  /var/www/html/index.html\nsystemctl --now enable httpd\n",
+            "defaultValue": "#!/bin/sh\n/usr/bin/yum install httpd curl -y\necho 'Hello World, Daniel was here!' >  /var/www/html/index.html\nsystemctl --now enable httpd\nsystemctl disable --now firewalld\n",
             "type": "String"
         },
         "customData_Web": {
-            "defaultValue": "#!/bin/sh\n/usr/bin/yum install httpd mod_ssl curl -y\necho 'Hello World, Daniel was here!' >  /var/www/html/index.html\nsystemctl --now enable httpd\n",
+            "defaultValue": "#!/bin/sh\n/usr/bin/yum install httpd mod_ssl curl -y\necho 'Hello World, Daniel was here!' >  /var/www/html/index.html\nsystemctl --now enable httpd\nsystemctl disable --now firewalld\n",
             "type": "String"
         },
         "customData_Bastion": {
