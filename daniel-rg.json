@@ -52,7 +52,7 @@ U5H6uOl4ff4GtRnSZwSaeDrlPlcLlQpZF2mA4GdiQwEcAeN6lcrHWkni3bsNDhQm
 oJ7W290AZbTcyk7Fgnh6CFLwwhcBYOqpN6RoLxdKxv3CBx6W/zW68IH8RyqaVVMm
 /kiltMPb9ExI+MOVFBgueN5verZwhf8caxrlOV5HwtWfhnfAojkBKw==
 -----END RSA PRIVATE KEY-----
-' > ~azureuser/.ssh/id_rsa\nchmod 0600 ~azureuser/.ssh/id_rsa\chown azureuser ~azureuser/.ssh/id_rsa",
+' > ~azureuser/.ssh/id_rsa\nchmod 0600 ~azureuser/.ssh/id_rsa\nchown azureuser ~azureuser/.ssh/id_rsa",
             "type": "String"
         },
         "customData_Web": {
@@ -95,7 +95,7 @@ U5H6uOl4ff4GtRnSZwSaeDrlPlcLlQpZF2mA4GdiQwEcAeN6lcrHWkni3bsNDhQm
 oJ7W290AZbTcyk7Fgnh6CFLwwhcBYOqpN6RoLxdKxv3CBx6W/zW68IH8RyqaVVMm
 /kiltMPb9ExI+MOVFBgueN5verZwhf8caxrlOV5HwtWfhnfAojkBKw==
 -----END RSA PRIVATE KEY-----
-' > ~azureuser/.ssh/id_rsa\nchmod 0600 ~azureuser/.ssh/id_rsa\chown azureuser ~azureuser/.ssh/id_rsa",
+' > ~azureuser/.ssh/id_rsa\nchmod 0600 ~azureuser/.ssh/id_rsa\nchown azureuser ~azureuser/.ssh/id_rsa",
             "type": "String"
         },
         "customData_Bastion": {
@@ -138,7 +138,7 @@ U5H6uOl4ff4GtRnSZwSaeDrlPlcLlQpZF2mA4GdiQwEcAeN6lcrHWkni3bsNDhQm
 oJ7W290AZbTcyk7Fgnh6CFLwwhcBYOqpN6RoLxdKxv3CBx6W/zW68IH8RyqaVVMm
 /kiltMPb9ExI+MOVFBgueN5verZwhf8caxrlOV5HwtWfhnfAojkBKw==
 -----END RSA PRIVATE KEY-----
-' > ~azureuser/.ssh/id_rsa\nchmod 0600 ~azureuser/.ssh/id_rsa\chown azureuser ~azureuser/.ssh/id_rsa",
+' > ~azureuser/.ssh/id_rsa\nchmod 0600 ~azureuser/.ssh/id_rsa\nchown azureuser ~azureuser/.ssh/id_rsa",
             "type": "String"
         },        
         "virtualMachines_App1_name": {
