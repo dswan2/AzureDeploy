@@ -421,7 +421,7 @@ oJ7W290AZbTcyk7Fgnh6CFLwwhcBYOqpN6RoLxdKxv3CBx6W/zW68IH8RyqaVVMm
                     },
                     "secrets": [],
                     "allowExtensionOperations": true,
-                    "customData": "[base64(parameters('customData_Web'))]",
+                    "customData": "[base64(parameters('customData_App'))]",
                     
                 },
                 "networkProfile": {
