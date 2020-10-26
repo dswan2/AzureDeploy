@@ -5,6 +5,10 @@
         "PublicIPAddress-Bastion": {
         "type": "string",
         "value": "[reference(parameters('publicIPAddresses_Bastion1_ip_name')).IpAddress]"
+                                },
+        "PublicIPAddress-Web": {
+        "type": "string",
+        "value": "[reference(parameters('publicIPAddresses_Web1_ip_name')).IpAddress]"
                                 }
          },
     "parameters": {
